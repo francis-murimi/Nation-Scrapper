@@ -1,3 +1,5 @@
+""" This python file can be run as a script.
+It can be run on the terminal or as an executable program."""
 import urllib
 import requests
 from urllib.request import urlopen
