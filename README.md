@@ -1,2 +1,2 @@
 # Nation Scrapper
- A web scrapper for scrapping news articles on nation website
+ A web scrapper for scrapping news articles on nation.africa website
