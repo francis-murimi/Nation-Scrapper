@@ -25,6 +25,6 @@ def nation():
     text_file.write(str(clean_content))
     text_file.close()
     print(name + ' has been saved.')
-    week = input("Press Enter to exit")
+    endvariable = input("Press Enter to exit")
 
 nation()
