@@ -29,6 +29,10 @@ def nation():
     text_file.write(str(clean_content)) # write text that has been formated into paragraphs
     text_file.close() # close the opened text file
     print(name + ' has been saved.') # show scrapping is complete
-    endvariable = input("Press Enter to exit") #Find assurance by closing python.exe yourself
+    contvariable = input("Press 1 to continue or Press 2 to exit scrapper : ") #Find assurance by closing python.exe yourself
+    if int(contvariable) == 1: # loop the function if needed to save time
+        nation()
+    elif int(contvariable) == 2:
+        the_end = input('Press enter to exit')
 
 nation() # call the scrapping function
