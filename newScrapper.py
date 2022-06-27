@@ -9,12 +9,12 @@ def scrapper():
     Processing web page to get text.
     Saving scrapped text to a file. """
     # Welcome greetings
-    print('Running scrupper for Nation.africa, TowardsDataScience.com and NewYorkTimes.com')
+    print('Running scrapper for Nation.africa, TowardsDataScience.com and NewYorkTimes.com')
     print('Welcome to chaos!')
     # Start of request handling
     url = input('Enter the url of webpage you wish to scrap : ') # Provide url
     fileName = input('Enter name of file to save scrapped text in : ') # Provide file name only and not type
-    name = fileName + '.txt' # Add a txt file formart explicitly
+    name = fileName + '.txt' # Add a txt file fomart explicitly
     req = Request(url, headers={'User-Agent': 'Mozilla/5.0'}) # Parse headers for server to grant authorization for HTML reading
     webpage = urlopen(req).read()
     page_soup = soup(webpage,"html.parser") # Beautifulsoup
